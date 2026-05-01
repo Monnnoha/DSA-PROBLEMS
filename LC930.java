@@ -22,8 +22,8 @@ public class LC930 {
         int[] nums = {1, 0, 1, 0, 1};
         int goal = 2;
 
-        int result = atMost(nums, goal) - atMost(nums, goal-1);
-        System.out.println(result);
+            int result = atMost(nums, goal) - atMost(nums, goal-1);
+            System.out.println(result);
 
     }
 }
